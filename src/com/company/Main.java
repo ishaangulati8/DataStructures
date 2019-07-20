@@ -10,5 +10,11 @@ public class Main {
         for (int i : merge.mergeTwo(arr1, arr2)) {
             System.out.println(i);
         }
+        System.out.println("N arrays");
+        MergeNSortedArrays mergeN = new MergeNSortedArrays();
+        int[][] arr = new int[][] {{1,2,3}, {4,5,6,6}, {8,9}};
+        for (int i : mergeN.merge(arr)) {
+            System.out.println(i);
+        }
     }
 }
